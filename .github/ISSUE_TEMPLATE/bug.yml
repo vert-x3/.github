@@ -12,3 +12,13 @@ body:
       label: Version
       description: Which version(s) did you encounter this bug ?
       placeholder: ex. 5.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Also tell us, what did you expect to happen?
+      placeholder: I encountered an exception which looks suspicious while ...
+    validations:
+      required: true
