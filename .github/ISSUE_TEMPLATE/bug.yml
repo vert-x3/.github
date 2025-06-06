@@ -22,6 +22,17 @@ body:
       placeholder: I encountered an exception which looks suspicious while ...
     validations:
       required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        1. ...
+        1. ...
+        1. ...
+    validations:
+      required: false
   - type: input
     id: reproducer
     attributes:
@@ -32,3 +43,5 @@ body:
         
         Reproducers are very helpful for contributors and will likely help them fixing your bug faster.
       placeholder: Link to github project/gist
+    validations:
+      required: false
