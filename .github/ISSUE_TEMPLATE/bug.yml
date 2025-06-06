@@ -22,3 +22,13 @@ body:
       placeholder: I encountered an exception which looks suspicious while ...
     validations:
       required: true
+  - type: input
+    id: reproducer
+    attributes:
+      label: Do you have a reproducer?
+      description: |
+        A reproducer is a simple project hosted on GitHub (or another forge supporting git clone operation) that
+        has a build file that can be executed to reproduce the issue.
+        
+        Reproducers are very helpful for contributors and will likely help them fixing your bug faster.
+      placeholder: Link to github project/gist
