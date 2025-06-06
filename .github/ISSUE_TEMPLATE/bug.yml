@@ -12,5 +12,4 @@ body:
       label: Version
       description: Which version(s) did you encounter this bug ?
       placeholder: ex. 5.0.0
-      validations:
-        required: false
+      value: "1.2.3.4"
