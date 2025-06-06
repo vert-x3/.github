@@ -18,14 +18,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: context
+    id: use-cases
     attributes:
-      label: Context
-      description: Also tell us, what did you expect to happen? anything that can be relevant such as OS version, JVM version
-      placeholder: |
-        I encountered an exception which looks suspicious while ...
-        OS: ...
-        JVM: ...
+      label: Use cases
+      description: A list of use cases this feature will enable and the value it creates.
     validations:
       required: true
   - type: textarea
