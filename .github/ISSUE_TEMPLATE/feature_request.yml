@@ -17,33 +17,12 @@ body:
       description: Give the simplest and best explanation.
     validations:
       required: true
-  - type: textarea
-    id: use-cases
-    attributes:
-      label: Use cases
-      description: A list of use cases this feature will enable and the value it creates.
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. ...
-        2. ...
-        3. ...
-        4. ...
-    validations:
-      required: false
   - type: input
-    id: reproducer
+    id: contribution
     attributes:
-      label: Do you have a reproducer?
+      label: Contribution
       description: |
-        A reproducer is a simple project hosted on GitHub (or another forge supporting git clone operation) that
-        has a build file that can be executed to reproduce the issue.
-        
-        Reproducers are very helpful for contributors and will likely help them fixing your bug faster.
-      placeholder: Link to github project/gist
+        Who should implement this feature ? are you volunteering for implementing this feature or
+        do you know that is able and willing implement this feature ?
     validations:
       required: false
