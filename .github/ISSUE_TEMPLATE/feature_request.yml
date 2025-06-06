@@ -5,7 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Read this first before creating an issue:
+
+        - do not use this issue tracker to ask questions, instead use one of these [channels](https://vertx.io/community/). Questions will likely be closed without notice.
+        - you shall create a feature request only when it is general purpose enough.
+        - make sure that the feature is not already
   - type: input
     id: version
     attributes:
