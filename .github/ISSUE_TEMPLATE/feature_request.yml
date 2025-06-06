@@ -10,12 +10,11 @@ body:
         - do not use this issue tracker to ask questions, instead use one of these [channels](https://vertx.io/community/). Questions will likely be closed without notice.
         - you shall create a feature request only when it is general purpose enough.
         - make sure that the feature is not already
-  - type: input
-    id: version
+  - type: textarea
+    id: description
     attributes:
-      label: Version
-      description: Which version(s) did you encounter this bug ?
-      placeholder: ex. 5.0.0
+      label: Describe the feature
+      description: Give the simplest and best explanation.
     validations:
       required: true
   - type: textarea
