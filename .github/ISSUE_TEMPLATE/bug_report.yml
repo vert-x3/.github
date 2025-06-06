@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       label: Questions
-      values: |
+      value: |
         Do not use this issue tracker to ask questions, instead use one of these [channels](https://vertx.io/community/).
         Questions will likely be closed without notice.
   - type: input
